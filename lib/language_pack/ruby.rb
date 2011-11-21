@@ -119,6 +119,7 @@ class LanguagePack::Ruby < LanguagePack::Base
         create_database_yml
         install_binaries
         run_assets_precompile_rake_task
+        generate_jekyll_site
       end
       super
     end
@@ -694,6 +695,11 @@ params = CGI.parse(uri.query || "")
     end
   end
 
+  def generate_jekyll_site
+    puts "Building jekyll site"
+    run("env PATH=$PATH bundle exec jekyll")
+  end
+
   def bundler_cache
     "vendor/bundle"
   end
@@ -770,4 +776,5 @@ params = CGI.parse(uri.query || "")
       install_language_pack_gems
     end
   end
+
 end
