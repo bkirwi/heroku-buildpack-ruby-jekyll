@@ -16,6 +16,8 @@ or add this buildpack to your current app
 
 Create a Ruby web app with dependencies managed by [Bundler](http://gembundler.com/) and a Jekyll site. [Heroku-Jekyll-Hello-World](https://github.com/burkemw3/Heroku-Jekyll-Hello-World) can be used as a sample starter.
 
+Push to heroku
+
     git push heroku master
 
 Watch it "Building jekyll site"
