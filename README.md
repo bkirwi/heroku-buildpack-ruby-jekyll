@@ -12,7 +12,7 @@ Usage
 
 or add this buildpack to your current app
 
-    heroku config:add BUILDPACK_URL=http://github.com/mattmanning/heroku-buildpack-ruby-jekyll.git
+    heroku config:add BUILDPACK_URL=http://github.com/jeremyvdw/heroku-buildpack-ruby-jekyll.git
 
 Create a Ruby web app with dependencies managed by [Bundler](http://gembundler.com/) and a Jekyll site. [Heroku-Jekyll-Hello-World](https://github.com/burkemw3/Heroku-Jekyll-Hello-World) can be used as a sample starter.
 
