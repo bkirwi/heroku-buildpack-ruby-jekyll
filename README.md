@@ -47,17 +47,17 @@ Watch it "Building jekyll site"
            Cleaning up the bundler cache.
            Would have removed bundler (1.2.1)
            Building jekyll site
-           Configuration from /tmp/build_7yloqm40t3udt/_config.yml
+           Configuration from /tmp/build_2khwpm40t8wev/_config.yml
            Building site: . -> ./_site
            Successfully generated site: . -> ./_site
     -----> Discovering process types
            Procfile declares types     -> web
            Default types for Ruby/Rack -> console, rake
 
-    -----> Compiled slug size: 3.2MB
-    -----> Launching... done, v13
+    -----> Compiled slug size: 6.1MB
+    -----> Launching... done, v99
     -----> Deploy hooks scheduled, check output in your logs
-           http://evening-temple-4839.herokuapp.com/ deployed to Heroku
+           http://mattmanning.herokuapp.com deployed to Heroku
 
 See Also
 --------
