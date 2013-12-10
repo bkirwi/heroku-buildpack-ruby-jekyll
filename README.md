@@ -1,3 +1,8 @@
+NOTE
+====
+
+Jekyll build-on-Heroku-deploy can leverage on Rails asset pipeline `rake assets:precompile` hook to avoid relying on a custom buildpack, please check Jesse B. Hannah method here: https://github.com/jbhannah/jbhannah.net/commit/c7a22cfa62b1274342e4e162125b3ae171c3b125
+
 Heroku Ruby Jekyll Buildpack
 ============================
 
