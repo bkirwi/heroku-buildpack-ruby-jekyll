@@ -21,7 +21,7 @@ Push to heroku
     git push heroku master
 
 Watch it "Building jekyll site"
-
+```
     -----> Fetching custom git buildpack... done
     -----> Ruby app detected
     -----> Compiling Ruby/Rack
@@ -165,6 +165,7 @@ Watch it "Building jekyll site"
    -----> Compiled slug size: 107.0MB
    -----> Launching... done, v7
           http://XXXXXX.herokuapp.com deployed to Heroku
+```
 
 See Also
 --------
